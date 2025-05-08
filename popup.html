@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>instDict</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instDict - Instant Dictionary</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <input type="text" id="enteredData" class="textbox" placeholder="Enter a word">
-    <button id="find" class="button">Find</button>
-    <div id="databox" class="meaning"></div>
-
- 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">instDict</h1>
+            <p class="subtitle">Instant dictionary lookup</p>
+        </header>
+        
+        <div class="search-container">
+            <input type="text" id="enteredData" class="textbox" placeholder="Enter a word..." autocomplete="off">
+            <button id="find" class="button">
+                <span class="button-text">Search</span>
+                <span class="button-icon">🔍</span>
+            </button>
+        </div>
+        
+        <div id="databox" class="meaning">
+            <div class="welcome-message">
+                <p>Enter a word to see its definition</p>
+            </div>
+        </div>
+        
+        
+    </div>
+    
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
