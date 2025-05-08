@@ -1,0 +1,25 @@
+.textbox {
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+  }
+  
+  body {
+    width: 300px;
+    height: 150px;
+    overflow-y: auto;
+  }
+  
+  .button {
+    color: white;
+    background-color: black;
+    margin-left: 20px;
+    width: 100px;
+  }
+
+  .meaning
+  {
+    color:black;
+    font-size: 30px;
+  }

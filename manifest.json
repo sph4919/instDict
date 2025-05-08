@@ -1,0 +1,21 @@
+ {
+
+   "name": "instDict",
+   "version":"1.0",
+   "description" : "It helps to find word meanings",
+   "manifest_version":3,
+   "action":
+   {
+    "default_popup": "popup.html",
+    "default_icon": "dicLogo.png",
+    "default_title": "Helps finding meaning"
+    
+   },
+   "permissions":["activeTab","contextMenus"],
+   "icons":{"128" : "dicLogo.png"}
+
+   
+
+
+ }
+
